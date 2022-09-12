@@ -86,7 +86,7 @@ $ terraform destroy
 ### Description of commands:
 
 ```
-**terraform init**: Run terraform init to download all necessary plugins.
+terraform init: Run terraform init to download all necessary plugins.
 terraform fmt: The command is used to rewrite Terraform configuration files to a canonical format and style.
 terraform validate: Command syntactically validates configuration files in a directory.
 terraform plan: Execute a terraform plan and place it in a file called plan.
