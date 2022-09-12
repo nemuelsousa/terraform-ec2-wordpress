@@ -1,4 +1,4 @@
-Criação da infraestutura AWS para hospedagem de sites wordpress
+Creation of the AWS infrastructure for hosting wordpress websites
 
 ## Diagram
 ![image](./diagram.svg)
