@@ -1,4 +1,4 @@
-Creation of the AWS infrastructure for hosting wordpress websites
+## Creation of the AWS infrastructure for hosting wordpress websites
 
 ## Diagram
 ![image](./diagram.svg)
@@ -26,18 +26,18 @@ Creation of the AWS infrastructure for hosting wordpress websites
 
 ## Usage
 
-### Criação de usuário do IAM
+### IAM user creation
 
 Create an IAM user to run Terraform in the AWS Management Console.
-- Purchase **IAM** from **Services** in the AWS Management Console.
-- Click on **Add User** under **Users** under **Access Management**.
-- Type **terraform** for Username, check **Programmatic Access** for Access Type and click **Next Step: Permissions**.
-- Click **Append existing policy directly**, check **AdministratorAccess** and click **Next step: tags**.
-- Click on **Next Step: Confirm** without adding tags.
-- Confirm the content and click on **Create User**.
-- The Passkey ID and Secret Passkey will be displayed, so write them down, click **Download csv** and click **Close**.
+- Purchase `IAM` from `Services` in the AWS Management Console.
+- Click on `Add User` under `Users` under `Access Management`.
+- Type `terraform` for Username, check `Programmatic Access` for Access Type and click `Next Step: Permissions`.
+- Click `Append existing policy directly`, check `AdministratorAccess` and click `Next step: tags`.
+- Click on `Next Step: Confirm` without adding tags.
+- Confirm the content and click on `Create User`.
+- The Passkey ID and Secret Passkey will be displayed, so write them down, click `Download csv` and click `Close`.
 
-### Install AWS CLI
+### Configure AWS CLI
 
 Set the configuration file and authentication information file.
 
@@ -82,11 +82,14 @@ $ terraform apply
 ```
 $ terraform destroy
 ```
+
 ### Description of commands:
 
-terraform init: Run terraform init to download all necessary plugins.
+```
+**terraform init**: Run terraform init to download all necessary plugins.
 terraform fmt: The command is used to rewrite Terraform configuration files to a canonical format and style.
 terraform validate: Command syntactically validates configuration files in a directory.
 terraform plan: Execute a terraform plan and place it in a file called plan.
 terraform apply: Use plan to apply changes in Cloud.
 terraform destroy: Deletes all created resources in Cloud.
+```
