@@ -1,5 +1,3 @@
-## Creation of the AWS infrastructure for hosting wordpress websites
-
 ## Diagram
 ![image](./diagram.svg)
 
