@@ -49,7 +49,7 @@ Default output format [None]: json
 ### Terraform resource creation
 
 ```
-git clone https://github.com/nemuelsousa/iac_terraform_wordpress.git
+git clone https://github.com/nemuelsousa/terraform-wordpress.git
 ```
 
 ### Create key pair for EC2
@@ -57,7 +57,7 @@ git clone https://github.com/nemuelsousa/iac_terraform_wordpress.git
 In the directory where the Terraform source code is.
 
 ```
-$ ssh-keygen -t rsa -f ec2_key -N ''
+$ ssh-keygen -t rsa -f ec2_key
 ```
 
 ### Infrastructure provisioning
