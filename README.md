@@ -54,10 +54,10 @@ git clone https://github.com/nemuelsousa/terraform-wordpress.git
 
 ### Create key pair for EC2
 
-In the directory where the Terraform source code is.
+In the .ssh directory (~/.ssh).
 
 ```
-$ ssh-keygen -t rsa -f ec2_key
+$ ssh-keygen -t rsa -f ec2_tf
 ```
 
 ### Infrastructure provisioning
