@@ -47,6 +47,6 @@ data "template_file" "script" {
 
 # Key Pair
 resource "aws_key_pair" "key" {
-  key_name   = "ec2_key"
-  public_key = file("ec2_key.pub")
+  key_name   = "ec2_tf"
+  public_key = file("~/.ssh/ec2_tf.pub")
 }
