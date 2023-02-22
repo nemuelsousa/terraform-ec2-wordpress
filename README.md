@@ -49,7 +49,7 @@ Default output format [None]: json
 ### Terraform resource creation
 
 ```
-git clone https://github.com/nemuelsousa/terraform-wordpress.git
+git clone https://github.com/nemuelsousa/terraform-ec2-wordpress.git
 ```
 
 ### Create key pair for EC2
